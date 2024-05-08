@@ -19,7 +19,7 @@ PROGRAM:
 Developed by :L.yagnesh kumar reddy 
 
 Register Number : 212223100024
-
+```
 C Program to print process ID and parent Process ID using Linux API system calls
 #include <stdio.h>
 #include <sys/types.h>
@@ -39,7 +39,9 @@ int main(void)
 	printf("The process id: %d\n",process_id);
 	printf("The process id of parent function: %d\n",p_process_id);
 	return 0; }
+```
 OUTPUT
+```
 322059149-fc4a585f-bf4c-46e2-8b28-bf0834b838b5
 
 C Program to create new process using Linux API system calls fork() and exit()
@@ -71,6 +73,7 @@ int main()
 	printf("Done.\n");
 	exit(0);
 }
+```
 OUTPUT
 322059755-ef1d3f60-fadd-482f-86ea-bbf59756cf8b
 
